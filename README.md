@@ -99,6 +99,35 @@ PROMISE-Net is evaluated on **four major medical segmentation benchmarks**:
 
 ---
 
+## 📈 Evaluation
+
+Evaluation code for benchmarking PROMISE-Net will be provided in a future update.
+
+The evaluation framework will support:
+- Dice Score (DSC)
+- Intersection-over-Union (IoU)
+- Hausdorff Distance (HD95)
+- False Negative Rate (FNR)
+- Dataset-specific clinical metrics (e.g., EF for CAMUS)
+
+📌 **Status:** _Coming soon_
+
+---
+
+## 🏋️ Training
+
+Training scripts and configuration files for PROMISE-Net will be released soon.
+
+The planned training pipeline will include:
+- Support for **PROMISE-CNN** and **PROMISE-Txformer**
+- Prompt-based supervision using **bounding box annotations**
+- Standard medical image losses (e.g., Dice + Cross-Entropy)
+- Reproducible training across all reported datasets
+
+📌 **Status:** _Coming soon_
+
+---
+
 ## 📊 Performance Highlights
 
 - **Consistent Dice & IoU improvements** over U-Net, UNETR, and SAM
