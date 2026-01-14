@@ -26,7 +26,7 @@ This repository contains the **official implementation** of the models proposed 
 ## 🧩 PROMISE-Net Architecture
 
 <div align="center">
-  <img src="assets/promise_net_architecture.png" width="850"/>
+  <img src="PROMISE-Net.png" width="850"/>
 </div>
 
 <p align="center">
